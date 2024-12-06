@@ -21,4 +21,7 @@ Follow some steps:
 2.Second step: git merge write_merge_branch_name
 3.Third step after merged: git push -u origin main
 
+How to reset/undo change to stage area to working directory?
+Use this command: git reset HEAD file_name
+
 
