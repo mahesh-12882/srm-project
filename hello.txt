@@ -9,7 +9,4 @@ Use this command: git chechout -b new_branch_name
 How to push code to other branch and we should not push code to main branch?
 Use this command: git push -u origin branch_name
 
-My branch only exists locally. How can I add my branch to my remote Git repository?
-Yes, use the git push command to set the upstream branch, e.g., git push –set-upstream origin <branch name>.git
-
 
