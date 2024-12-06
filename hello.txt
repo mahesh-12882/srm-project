@@ -1,1 +1,12 @@
 Hello everyone developer
+
+How switch branch?
+Use this command: git chechout branch_name
+
+How to create new branch?
+Use this command: git chechout -b new_branch_name
+
+How to push code to other branch and we should not push code to main branch?
+Use this command: git push -u origin branch_name
+
+
