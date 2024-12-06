@@ -9,4 +9,16 @@ Use this command: git chechout -b new_branch_name
 How to push code to other branch and we should not push code to main branch?
 Use this command: git push -u origin branch_name
 
+My branch only exists locally. How can I add my branch to my remote Git repository?
+Yes, use the git push command to set the upstream branch, e.g., git push –set-upstream origin <branch name>.git
+
+How can I delete a branch?
+Using this command: git branch -d feature1
+
+How to merge students branch into main branch?
+Follow some steps:
+1.Firstly switch the main branch: git checkout main 
+2.Second step: git merge write_merge_branch_name
+3.Third step after merged: git push -u origin main
+
 
